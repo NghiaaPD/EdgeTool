@@ -1,0 +1,6 @@
+streamlit
+pandas
+queue
+pydeck
+duckdb
+threading

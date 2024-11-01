@@ -1,14 +1,12 @@
-import streamlit as st
-import pandas as pd
 import threading
 from queue import Queue
 
+import pandas as pd
+
+from config.configParameter import *
 from functions.loadData import Load
 from functions.mapData import Map
 from functions.runThread import *
-
-from config.configParameter import *
-
 from lib.edgeAlgorithm import edge_computing_cost_with_priority, PSO, genetic_algorithm, NSGAII
 
 st.set_page_config(page_title="Main", page_icon="📈")
